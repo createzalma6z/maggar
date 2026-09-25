@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Resources" />
+<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/exo-2@5/700.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/exo-2@5/800.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/orbitron@5/900.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/css/style.css">
 </head>
 <body>
   <canvas id="game" aria-label="Game area"></canvas>
@@ -165,23 +170,186 @@
 
   <noscript><div class="noscript">This game needs JavaScript. / Bu oyun için JavaScript gerekiyor.</div></noscript>
 
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/util.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/config.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/i18n.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/names.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/filter.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/storage.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/progress.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/audio.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/core/input.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/game/entities.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/game/world.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/game/modes.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/game/events.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/game/ai.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/render/skins.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/render/renderer.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/ui/ui.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@main/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/util.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/i18n.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/names.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/filter.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/storage.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/progress.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/audio.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/core/input.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/game/entities.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/game/world.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/game/modes.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/game/events.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/game/ai.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/render/skins.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/render/renderer.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/ui/ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/createzalma6z/maggar@4518824/js/main.js"></script>
+  <!-- Sticky Bottom Center Ad (728x90) with Smooth Slide-Out and Reappearance -->
+<style>
+  /* Container: Bottom center, fixed, with overflow hidden */
+  #ad-container {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(728px, calc(100% - 20px)); /* 728px, 10px margin on mobile */
+    height: 90px;
+    background: rgba(0, 0, 0, 0.90);
+    display: none;
+    z-index: 99999;
+    border-radius: 0; /* Sharp corners */
+    overflow: hidden;
+    box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out; /* Smooth slide-in/out animation */
+  }
+
+  /* Slide-out animation */
+  #ad-container.hidden {
+    transform: translate(-50%, 100%); /* Slide down out of view */
+  }
+
+  #ad-iframe {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 745px; /* Updated width */
+    height: 90px; /* Updated height */
+    border: 0;
+    display: block;
+    overflow: hidden;
+    pointer-events: auto;
+    box-sizing: content-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  #ad-iframe::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  /* Close button with arrow */
+  #close-ad {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: not-allowed;
+    opacity: 0.72;
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+  }
+  #close-ad.enabled {
+    cursor: pointer;
+    opacity: 1;
+  }
+  #close-ad::before {
+    content: '↓'; /* Down arrow for bottom ad */
+    margin-right: 4px;
+  }
+
+  /* Right mask for scrollbar */
+  #ad-right-mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+    z-index: 99999;
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 440px) {
+    #ad-container {
+      width: calc(100% - 12px);
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 0; /* Sharp corners on mobile */
+    }
+    #ad-iframe {
+      width: 728px;
+    }
+  }
+</style>
+
+<div id="ad-container" aria-hidden="true" role="dialog" aria-label="Advertisement">
+  <iframe
+    id="ad-iframe"
+    src="https://script.google.com/macros/s/AKfycbxLG5DHBe-sIbduDvwQZYJ3oaX_ha7rsvroprCFkQsnpZK_PEdipNia5ghxI_sdXYpv/exec"
+    width="768px"
+    height="95px"
+    scrolling="no"
+    frameborder="0"
+    sandbox="allow-scripts allow-popups allow-same-origin"
+  ></iframe>
+  <button id="close-ad" disabled>Close (12)</button>
+  <div id="ad-right-mask"></div>
+</div>
+
+<script>
+  (function () {
+    const showDelay = 2000; // 2 seconds delay before first show
+    const countdownStart = 12; // 12 seconds countdown
+    const reappearDelay = 150000; // 25 seconds before reappearance
+    const adContainer = document.getElementById('ad-container');
+    const closeBtn = document.getElementById('close-ad');
+
+    function showAd() {
+      // Show ad with smooth slide-in
+      adContainer.style.display = 'block';
+      adContainer.classList.remove('hidden');
+      adContainer.setAttribute('aria-hidden', 'false');
+
+      // Start countdown
+      let timeLeft = countdownStart;
+      closeBtn.textContent = `Close (${timeLeft})`;
+      closeBtn.disabled = true;
+      closeBtn.classList.remove('enabled');
+
+      const t = setInterval(() => {
+        timeLeft--;
+        if (timeLeft > 0) {
+          closeBtn.textContent = `Close (${timeLeft})`;
+        } else {
+          clearInterval(t);
+          closeBtn.disabled = false;
+          closeBtn.classList.add('enabled');
+          closeBtn.textContent = 'Close ↓';
+        }
+      }, 1000);
+    }
+
+    // Initial ad show
+    setTimeout(showAd, showDelay);
+
+    // Close with animation and schedule reappearance
+    closeBtn.addEventListener('click', () => {
+      if (closeBtn.disabled) return;
+      adContainer.classList.add('hidden');
+      adContainer.setAttribute('aria-hidden', 'true');
+      // Schedule reappearance without removing or reloading iframe
+      setTimeout(showAd, reappearDelay);
+    });
+  })();
+</script>
 </body>
 </html>
+
+
+]]></Content>
+</Module>
