@@ -1,0 +1,12 @@
+{
+  "name": "maggar-io",
+  "version": "1.0.0",
+  "description": "Offline, school-friendly cell-eating arena game with humanlike AI rivals (English + Turkish).",
+  "private": true,
+  "scripts": {
+    "test": "node tests/sim.test.js",
+    "test:browser": "node tests/browser.test.js",
+    "start": "npx http-server -c-1 -p 8080 ."
+  },
+  "license": "MIT"
+}
